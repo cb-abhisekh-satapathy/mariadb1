@@ -15,7 +15,7 @@ Lagos is a backend service built with Spring Boot, designed to handle series-rel
 
 The application follows a standard layered architecture:
 
-```mermaid
+mermaid
 graph TD
     Client[Client / Frontend] -->|HTTP Requests| Controllers
     
@@ -44,7 +44,6 @@ graph TD
     
     Repos -->|SQL| DB[(MariaDB Database)]
     Services -->|API Calls| ExtServices[External Services\n(Aldan, MatchesSchedule)]
-```
 
 ## ✨ Key Features
 
